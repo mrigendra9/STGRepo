@@ -43,5 +43,10 @@ name = "rg-uatrepo1q24"
 location = "west europe"
 }
 
+  resource "azurerm_resource_group" "rg111" {
+name = "rg-uatrepo1q241"
+location = "west europe"
+}
+
 
 
