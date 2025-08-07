@@ -14,6 +14,11 @@ location = "west europe"
 }
 
 
+resource "azurerm_resource_group" "test-rg23" {
+name = "test-rgepo"
+location = "west europe"
+}
+
 resource "azurerm_storage_account" "storage" {
   name = "uatrepostorage01"
   resource_group_name = azurerm_resource_group.rg.name
