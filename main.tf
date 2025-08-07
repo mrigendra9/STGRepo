@@ -37,3 +37,11 @@ resource "azurerm_virtual_network" "vnet" {
     address_prefixes = "192.168.11.0/24"
    }
   }
+
+  resource "azurerm_resource_group" "rg11" {
+name = "rg-uatrepo1q24"
+location = "west europe"
+}
+
+
+
