@@ -1,7 +1,13 @@
 resource "azurerm_resource_group" "rg" {
-name = "rg-uatrepo"
+name = "rg-Mrigendra"
 location = "west europe"
 }
+
+resource "azurerm_resource_group" "test-rg" {
+name = "test-rgepo"
+location = "west europe"
+}
+
 
 resource "azurerm_storage_account" "storage" {
   name = "uatrepostorage01"
